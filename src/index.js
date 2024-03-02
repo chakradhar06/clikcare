@@ -1,19 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import PatientRegistration from './components/PatientRegister'
-import PatientLogin from './components/PatientLogin';
-import PatientOTP from './components/PatientOTP';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <PatientRegistration/>
-    {/* <PatientLogin/> */}
-    {/* <PatientOTP/> */}
+    <App />
   </React.StrictMode>
 );
 

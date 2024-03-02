@@ -46,7 +46,7 @@ function PatientOTP() {
                   }}
                 />
                 <div class="text-end mb-3 g-10">
-                  <span style={{color: "blue"}}>Resend OTP</span>
+                  <span style={{ color: "blue" }}>Resend OTP</span>
                 </div>
               </div>
 
